@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#telaLogin{
+    margin: auto;
+    margin: 25px;
+    width: 35%;
+    height: 55%;
+    border: solid 1px black;
+}
