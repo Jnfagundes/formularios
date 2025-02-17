@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Formulários</title>
 </head>
 <body>
-    <section id="telaLogin">
-        
-    </section>
+    <main>
+        <section id="telaLogin">
+            <p id="titulo">Login</p>
+
+        </section>
+        <form id="informacoes">
+            <label for="usuario" class="info">Username</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário">
+
+            <label for="senha" class="info">Password</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+
+            <button>Entrar</button>
+        </form>
+
+        <section id="cadastro">
+            <h3>Não tem conta? <a href="#">Cadastre-se</a></h3>
+        </section>
+    </main>
 </body>
 </html>
