@@ -12,10 +12,8 @@ body{
 }
 
 main{
-    /* display: flex; */
     margin-top: 160px;
-    /* position: center; */
-    margin-left: 110px;
+    margin-left: 170px;
     padding: 25px;
     width: 30%;
     height: 480px;
@@ -26,15 +24,8 @@ main{
 }
 
 #telaLogin{
-    /* margin: 20px; */
     padding: 20px;
     position: center;
-    /* margin-left: 110px;  */
-    /* padding: 25px; */
-    /* width: 30%; */
-    /* height: 480px; */
-    /* background-color: #140152; */
-    /* border-radius: 50px; */
     
 }
 
