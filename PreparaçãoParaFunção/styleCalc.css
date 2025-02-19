@@ -1,5 +1,19 @@
 main{
     width: 30%;
-    height: 20%;
+    height: 300px;
     background-color: black;
+    margin: auto;
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+}
+
+div{
+    width: 80%;
+    margin: auto;
+    padding-left: 50px;
+}
+
+#tela{
+    text-align: center;
 }
