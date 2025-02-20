@@ -1,34 +1,3 @@
-// //capturar elementos
-// let tela = document.getElementById('tela');
-
-// let adicionar = document.getElementById("adicionar");
-
-// let subtrair = document.getElementById("subtrair")
-
-// let op = document.getElementById("op")
-
-
-
-// //Criar as funções para a manipulação
-
-// function adicionarNum(){
-//     tela.value = Number(tela.value) + 1
-// }
-
-// function subtrairNum(){
-//     tela.value = Number(tela.value) - 1
-// }
-
-// function multiplicarNum(){
-//     mult = Number(tela.value) *10
-
-// }
-
-// //adicionar um evento ao botão
-
-// adicionar.addEventListener("click", adicionarNum)
-// subtrair.addEventListener("click", subtrairNum)
-
 // Capturar elementos
 let tela = document.getElementById('tela');
 let adicionar = document.getElementById("adicionar");
