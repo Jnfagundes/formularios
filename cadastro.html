@@ -10,7 +10,11 @@
 <body>
     <main>
         <p id="titulo">Cadastro</p>
-        <form action="#">
+        <form >
+            <div class="cadastro">
+                <div><label for="nome">Nome</label></div>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo">
+            </div>
             <div class="cadastro">
                 <div><label for="usuario">Usuário</label></div>
                 <input type="text" name="user" id="usuario" placeholder="Digite seu nome de usuário">
@@ -24,8 +28,8 @@
                 <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
             </div>
 
-            <button><a href="index.html">Cadastrar</a></button>
         </form>
+        <button id="enviar" >Cadastrar</button>
     </main>
     
 </body>
