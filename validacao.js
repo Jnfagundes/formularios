@@ -21,8 +21,8 @@ enviar.addEventListener('click', function (event){
 //validando o nome:
 //busque o valor do nome e verifique se ele está vazio usando o método "trim()".
 //Imprima uma mensagem avisando da obrigatoriedade de preencher esse campo e altere o valor da variável acima para falso
-    if (nome.value == 0){
-        console.log("É obrigatório o preenchemento do campo 'nome'");
+    if (nome.value.trim() == 0){
+        alert("É obrigatório o preenchemento do campo 'nome'");
         falhas = false
     }
 
@@ -30,7 +30,11 @@ enviar.addEventListener('click', function (event){
 //para isso use o método "trim()" para remover os espaços e use o método "split(" ")" para transformar o texto em palavras
 // Busque o tamanho do array para saber se ele contém duas palavras
 //altere a variável booleana para falso
-
+else{
+    if (nome.value.trim().split(" ") >= 2){
+        
+    }
+};
 })
 
 
