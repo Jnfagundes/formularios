@@ -1,7 +1,5 @@
-let div = document.getElementById('amarelo');
-
-div.addEventListener('mouseup', corAmarela())
 
 function corAmarela(){
-    div.style.background = 'yellow'
+    let amarelo = document.getElementById('amarelo');
+    amarelo.style.background = 'yellow'
 }
