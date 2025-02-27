@@ -5,17 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudando JavaScript</title>
     <style>
-        div{
+        #amarelo{
             width: 70%;
             height: 200px;
             margin: auto;
             border: solid 1px black;
         }
+
+        #acesa{
+            width: 300px;
+            height: 420px;
+            border: solid 1px black;
+            margin: auto;
+            margin-top: 70px;
+            background-image: url(Images/Lâmpada\ acesa.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        
     </style>
 </head>
 <body>
-    <div id="amarelo" onmouseover="corAmarela()"></div>
-    
+    <div id="amarelo" onmouseleave="corVermelha()" onmouseover="corAmarela()"></div>
+    <div id="acesa" onclick="quebrar()"></div>
 
     <script src="atividade.js"></script>
 </body>
