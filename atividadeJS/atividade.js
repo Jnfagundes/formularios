@@ -1,3 +1,4 @@
+let acesa = document.getElementById('acesa');
 
 function corAmarela(){
     let amarelo = document.getElementById('amarelo');
@@ -9,8 +10,15 @@ function corVermelha(){
     amarelo.style.background = 'red'
 }
 
+function acender(){
+    acesa.style.backgroundImage = "url(Images/lampadaAcesa.png)"
+}
+
+function apagar(){
+    acesa.style.backgroundImage = "url(Images/lampadaApagada.png)"
+}
+
 function quebrar(){
-    let acesa = document.getElementById('acesa');
-    acesa.style.backgroundImage = 'url(Images/Lâmpada quebrada.png)'
+    acesa.style.backgroundImage = "url(Images/lampadaQuebradaC.png)"
 }
 

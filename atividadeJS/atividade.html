@@ -18,7 +18,7 @@
             border: solid 1px black;
             margin: auto;
             margin-top: 70px;
-            background-image: url(Images/Lâmpada\ acesa.png);
+            background-image: url(Images/lampadaApagada.png);
             background-size: cover;
             background-repeat: no-repeat;
             
@@ -28,7 +28,8 @@
 </head>
 <body>
     <div id="amarelo" onmouseleave="corVermelha()" onmouseover="corAmarela()"></div>
-    <div id="acesa" onclick="quebrar()"></div>
+    
+    <div id="acesa" onmouseover="acender()" onmouseleave="apagar()" onmousedown="quebrar()"></div>
 
     <script src="atividade.js"></script>
 </body>
